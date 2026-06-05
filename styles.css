@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -5,8 +6,8 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
-    background-color: #c4937f;
+    font-family: 'Inter', sans-serif;
+    background-color: #9c6650;
     height: 100vh;
     overflow: hidden;
 }
@@ -28,8 +29,6 @@ body {
     height: 100%;
     max-height: 800px;
     background-color: #f5e6c3;
-    border: 8px solid #c4937f;
-    border-radius: 8px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -42,7 +41,7 @@ body {
 .profile {
     grid-column: 1;
     grid-row: 1 / 3;
-    border-right: 3px solid #c4937f;
+    border-right: 3px solid #CA3537;
     padding: 25px 15px;
     display: flex;
     flex-direction: column;
@@ -52,15 +51,16 @@ body {
 .profile-img {
     width: 150px;
     height: 150px;
-    background-color: #f5a77f;
-    border-radius: 8px;
+    background-color: #F68559;
+    border-radius: 8px #F68559;
+    box-shadow: -5px 5px 4px #c93639;
     margin-bottom: 12px;
 }
 
 .profile-name {
-    font-family: Georgia, serif;
+    font-family: 'Inter', sans-serif;
     font-style: italic;
-    color: #a0533a;
+    color: #CA3537;
     font-size: clamp(14px, 2vw, 16px);
     margin-bottom: 15px;
     font-weight: normal;
@@ -83,7 +83,7 @@ body {
 
 .certs-section {
     width: 100%;
-    border-top: 3px solid #c4937f;
+    border-top: 3px solid #CA3537;
     padding-top: 12px;
 }
 
@@ -103,24 +103,30 @@ body {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    border-right: 3px solid #c4937f;
-    border-bottom: 3px solid #c4937f;
+    border-right: 3px solid #CA3537;
+    border-bottom: 3px solid #CA3537;
 }
 
 .section-title {
-    font-family: Georgia, serif;
+    font-family: 'Inter', sans-serif;
     font-style: italic;
-    color: #c4937f;
+    color: #CA3537;
     font-size: clamp(14px, 2vw, 16px);
     font-weight: bold;
     margin: 0;
 }
 
-.section-text{
-    font-family: Georgia, serif;
+.section-subtitle{
+    font-family: 'Inter', sans-serif;
     font-style: italic;
-    color: #c4937f;
-    font-size: clamp(12px, 1.5vw, 13px);
+    color: #ca3537be;
+    font-size: clamp(12px, 2vw, 14px);
+}
+
+.section-text{
+    font-family: 'Inter', sans-serif;
+    color: #771719;
+    font-size: clamp(11px, 1.5vw, 13px);
     margin-top: 12px;
     line-height: 1.5;
 }
@@ -152,7 +158,7 @@ body {
     grid-column: 1;
     grid-row: 2;
     border-top: 3px solid;
-    color: #c4937f;
+    color: #CA3537;
     border-bottom: none;
 }
 
@@ -164,14 +170,14 @@ body {
     grid-column: 2;
     grid-row: 2;
     border-top: 3px dashed;
-    color: #c4937f;
+    color: #CA3537;
 }
 
 .project:nth-of-type(7) {
     grid-column: 3;
     grid-row: 2;
     border-top: 3px dashed;
-    color: #c4937f;
+    color: #CA3537;
 }
 
 .project:nth-of-type(8) {
@@ -180,5 +186,5 @@ body {
     grid-row: 2;
     border-right: none;
     border-top: 3px solid;
-    color: #c4937f;
+    color: #CA3537;
 }
