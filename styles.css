@@ -19,7 +19,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 20px;
+    padding: 10px;
 }
 
 /* Portfolio Container */
@@ -123,6 +123,13 @@ body {
     font-size: clamp(12px, 2vw, 14px);
 }
 
+.section-stack{
+    font-family: 'Inter', sans-serif;
+    color: #ca353790;
+    font-size: clamp(11px, 2vw, 13px);
+    margin: 1px;
+}
+
 .section-text{
     font-family: 'Inter', sans-serif;
     color: #771719;
@@ -145,7 +152,6 @@ body {
 }
 
 .skills {
-   
     grid-column: 4;
     grid-row: 1;
     border-right: none;
