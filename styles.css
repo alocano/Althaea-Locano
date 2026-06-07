@@ -138,6 +138,13 @@ body {
     margin-top: 12px;
     line-height: 1.5;
 }
+.section-list{
+    font-family: 'Inter', sans-serif;
+    color: #771719;
+    font-size: clamp(10px, 1.5vw, 13px);
+    margin-top: 12px;
+    line-height: 1;
+}
 
 /* Top Row Sections */
 .about {
