@@ -168,7 +168,6 @@ body {
 
 /* Bottom Row Sections */
 .certs {
-    
     grid-column: 1;
     grid-row: 2;
     border-top: 3px solid;
