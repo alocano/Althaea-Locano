@@ -167,7 +167,7 @@ body {
 }
 
 /* Bottom Row Sections */
-.certs {
+.project:nth-of-type(5) {
     grid-column: 1;
     grid-row: 2;
     border-top: 3px solid;
